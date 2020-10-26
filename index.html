@@ -16,9 +16,9 @@
             <h3 class="message-text">Attention ce site est en développement</h3>
         </div>
         <header>
-            <div class="logo">
-                <p class="logo--name">{{logo--name}} will work with <a href="https://www.vuejs.org">vuejs</a></p>
-            </div>
+            <div id="logo">
+                <p class="aaaa">{{ logo_name }}</p>
+              </div>              
             <button class="nav-toggle" aria-label="toggle navigation">
                 <span class="hamburger"></span>
             </button>
@@ -149,6 +149,14 @@
                 <li class="social-list__item"><a class="social-list__link" href="https://github.com">d</a></li>
             </ul>
         </footer>
-        
+        <script src="https://cdn.jsdelivr.net/npm/vue@2.6.0"></script>
+        <script>
+            var app = new Vue({
+    el: '#logo',
+    data: {
+      logo_name: '<eiio.dev/>'
+    }
+  })
+        </script>
     </body>
 </html>
