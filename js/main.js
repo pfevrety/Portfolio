@@ -3,7 +3,7 @@ const navLinks = document.querySelectorAll('.nav__link')
 
 navToggle.addEventListener('click', () => {
     document.body.classList.toggle('nav-open');
-    document.documentElement.style.overflow = 'visible';
+    document.documentElement.style.overflow = 'hidden';
 });
 
 navLinks.forEach(link => {
@@ -16,13 +16,6 @@ var app = new Vue({
     el: '#app',
     data: {
         message: '<eiio.dev/>'
-    }
-})
-
-var app = new Vue({
-    el:'#css',
-    data: {
-        prymarycolor: '9DFFF9'
     }
 })
 
