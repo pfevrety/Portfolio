@@ -19,13 +19,6 @@ var app = new Vue({
     }
 })
 
-var app = new Vue({
-    el:'#css',
-    data: {
-        prymarycolor: '9DFFF9'
-    }
-})
-
 document.getElementById('button1').onclick = () => {
     // Set the variable on the document.documentElement, which is usually the <html> node
     document.documentElement.style.setProperty('--clr-accent', '#FFC312')
