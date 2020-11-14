@@ -1,33 +1,37 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Eliott Fevret</title>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
-
         <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="css/style.css">
-        <link rel="icon" href="/data/logo.ico">
+        <link rel="shortcut icon" type="image/png" href="/data/logo-removebg-preview.png" />
+
+
     </head>
     <body>
-        <div class="message">
-            <h3 class="message-text">Attention ce site est en développement</h3>
-        </div>
         <header>
-            <div id="logo">
-                <p class="aaaa">{{ logo_name }}</p>
-              </div>              
+            <div class="logo" id="app">
+                <h1 class="logo--title">{{ message }}</h1>
+            </div>
             <button class="nav-toggle" aria-label="toggle navigation">
                 <span class="hamburger"></span>
             </button>
             <nav class="nav">
                 <ul class="nav__list">
                     <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
-                    <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
-                    <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
-                    <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+                    <li class="nav__item"><a href="#services" class="nav__link">Mes services</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">A propos de moi</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">Mes travaux</a></li>
+                    <ul id="button-list">
+                        <li class="button--color"id="button1"></li>
+                        <li class="button--color" id="button2"></li>
+                        <li class="button--color" id="button3"></li>
+                        <li class="button--color" id="button4"></li>
+                    </ul>
                 </ul>
             </nav>
         </header>
@@ -47,12 +51,12 @@
             <h2 class="section__title section__title--services">What I do</h2>
             <div class="services">
                 <div class="service">
-                    <h3>Development</h3>
+                    <h3>Developpement</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                 </div> <!-- / service -->
                 
                 <div class="service">
-                    <h3>IA</h3>
+                    <h3>Lorem</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                 </div> <!-- / service -->
                 
@@ -68,8 +72,8 @@
         
         <!-- About me -->
         <section class="about-me" id="about">
-           <h2 class="section__title section__title--about">Who I am</h2>
-           <p class="section__subtitle section__subtitle--about">Developer</p>
+           <h2 class="section__title section__title--about">Qui je suis</h2>
+           <p class="section__subtitle section__subtitle--about">Developper</p>
            
            <div class="about-me__body">
                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
@@ -81,42 +85,42 @@
         
         <!-- My Work -->
         <section class="my-work" id="work">
-            <h2 class="section__title">My work</h2>
-            <p class="section__subtitle"></p>
+            <h2 class="section__title section__title--work">Mon travail</h2>
+            <p class="section__subtitle section__subtitle--work">Une selection de mes travaux</p>
             
             <div class="portfolio">
                 <!-- Portfolio item 01 -->
-                <a href="#" class="portfolio__item">
-                    <img src="https://media-exp1.licdn.com/dms/image/C560BAQHMnA03XDdf3w/company-logo_200_200/0?e=2159024400&v=beta&t=C7KMOtnrJwGrMXmgIk2u1B8a7VRfgxMwXng9cdP9kZk" alt="" class="portfolio__img">
+                <a href="portfolio-item.html" class="portfolio__item">
+                    <img src="img/portfolio-01.jpg" alt="" class="portfolio__img">
                 </a>
                 
                 <!-- Portfolio item 02 -->
-                <a href="#" class="portfolio__item">
-                    <img src="https://media-exp1.licdn.com/dms/image/C560BAQHMnA03XDdf3w/company-logo_200_200/0?e=2159024400&v=beta&t=C7KMOtnrJwGrMXmgIk2u1B8a7VRfgxMwXng9cdP9kZk" alt="" class="portfolio__img">
+                <a href="portfolio-item.html" class="portfolio__item">
+                    <img src="img/portfolio-02.jpg" alt="" class="portfolio__img">
                 </a>
                 
                 <!-- Portfolio item 03 -->
-                <a href="#" class="portfolio__item">
-                    <img src="https://media-exp1.licdn.com/dms/image/C560BAQHMnA03XDdf3w/company-logo_200_200/0?e=2159024400&v=beta&t=C7KMOtnrJwGrMXmgIk2u1B8a7VRfgxMwXng9cdP9kZk" alt="" class="portfolio__img">
+                <a href="portfolio-item.html" class="portfolio__item">
+                    <img src="img/portfolio-03.jpg" alt="" class="portfolio__img">
                 </a>
                 
                 <!-- Portfolio item 04 -->
-                <a href="#" class="portfolio__item">
-                    <img src="https://media-exp1.licdn.com/dms/image/C560BAQHMnA03XDdf3w/company-logo_200_200/0?e=2159024400&v=beta&t=C7KMOtnrJwGrMXmgIk2u1B8a7VRfgxMwXng9cdP9kZk" alt="" class="portfolio__img">
+                <a href="portfolio-item.html" class="portfolio__item">
+                    <img src="img/portfolio-04.jpg" alt="" class="portfolio__img">
                 </a>
                 
                 <!-- Portfolio item 05 -->
-                <a href="#" class="portfolio__item">
+                <a href="portfolio-item.html" class="portfolio__item">
                     <img src="img/portfolio-05.jpg" alt="" class="portfolio__img">
                 </a>
                 
                 <!-- Portfolio item 06 -->
-                <a href="#" class="portfolio__item">
+                <a href="portfolio-item.html" class="portfolio__item">
                     <img src="img/portfolio-06.jpg" alt="" class="portfolio__img">
                 </a>
                 
                 <!-- Portfolio item 07 -->
-                <a href="#" class="portfolio__item">
+                <a href="portfolio-item.html" class="portfolio__item">
                     <img src="img/portfolio-07.jpg" alt="" class="portfolio__img">
                 </a>
                 
@@ -139,24 +143,24 @@
         
         
         <!-- Footer -->
-        <footer>
-            <!-- replace with your own email address -->
-            <a href="mailto:efevret@gmail.com" class="footer__link">Contact-me</a>
+        <footer class="footer">
+            <a href="mailto:efevret@gmail.com" class="footer__link">efevret@gmail.com</a>
             <ul class="social-list">
-                <li class="social-list__item"><a class="social-list__link" href="https://codepen.io">a</a></li>
-                <li class="social-list__item">b<a class="social-list__link" href="http://dribbble.com"></a></li>
-                <li class="social-list__item"><a class="social-list__link" href="https://twitter.com">c</a></li>
-                <li class="social-list__item"><a class="social-list__link" href="https://github.com">d</a></li>
-            </ul>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="dsc.bio/pfevtety">
+                        <i class="fab fa-discord"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/pfevrety">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+            </ul> 
         </footer>
-        <script src="https://cdn.jsdelivr.net/npm/vue@2.6.0"></script>
-        <script>
-            var app = new Vue({
-    el: '#logo',
-    data: {
-      logo_name: '<eiio.dev/>'
-    }
-  })
-        </script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.8/vue.common.dev.js" integrity="sha512-1TRlgMd66nquj2y/vt6/A3r0rSyC5/lq799RCazhrmM1XoHcDMM1Dm+DRjg0DriXczu9Qz1/gUxffw6SNMBSAg==" crossorigin="anonymous"></script>
+        <script src="js/main.js"></script>
+        
     </body>
 </html>
