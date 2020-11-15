@@ -3,7 +3,7 @@ const navLinks = document.querySelectorAll('.nav__link')
 
 navToggle.addEventListener('click', () => {
     document.body.classList.toggle('nav-open');
-    document.documentElement.style.overflow = 'hidden';
+    document.documentElement.style.overflow = 'scroll';
 });
 
 navLinks.forEach(link => {
