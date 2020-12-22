@@ -518,11 +518,11 @@ header {
 }
 
 .visible-r {
-  animation: visible-right 1s linear 1s;
+  animation: visible-right 1s linear;
 }
 
 .visible-l {
-  animation: visible-left 1s linear 1s;
+  animation: visible-left 1s linear;
 }
 
 @keyframes visible-right {
