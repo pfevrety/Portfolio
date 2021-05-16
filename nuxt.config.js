@@ -33,6 +33,7 @@ export default {
     '@nuxtjs/pwa',
   ],
 
+  target: 'static',
   // PWA module configuration: https://go.nuxtjs.dev/pwa
   pwa: {
     manifest: {
