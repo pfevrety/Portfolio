@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-yellow-50 font-ubuntu">
+  <div class="font-ubuntu">
     <presentation />
     <competence />
     <project />

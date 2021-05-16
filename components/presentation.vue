@@ -1,10 +1,10 @@
 <template>
   <section class="m-4 flex items-center justify-between flex-wrap p-6 md:flex-nowrap" id="presentation">
     <div class="pl-4 w-8/12">
-      <h2 class="text-5xl font-bold">Qui je suis</h2>
-      <p class="text-2xl font-light bg-green-500 w-special p-2 mt-5 mb-3">Developper</p>
+      <h2 class="text-5xl font-bold dark:text-white">Qui je suis</h2>
+      <p class="text-2xl font-light bg-green-500 w-special p-2 mt-5 mb-3 dark:text-white">Developper</p>
 
-      <div class="font-extralight">
+      <div class="font-extralight dark:text-gray-400">
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad

@@ -1,7 +1,7 @@
 <template>
   <section class="m-4 p-6" id="competence">
-    <h3 class="ml-2 text-3xl font-bold">Mes compétences</h3>
-    <p class="p-2 text-2xl font-light">Lorem Ipsum dollor si amet</p>
+    <h3 class="ml-2 text-3xl font-bold dark:text-white">Mes compétences</h3>
+    <p class="p-2 text-2xl font-light dark:text-white">Lorem Ipsum dollor si amet</p>
     <div class="flex flex-wrap justify-between p-1">
       <competenceCard techDescription="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus pharetra arcu dui, ut congue quam laoreet ac. Praesent convallis tincidunt ante, ut tincidunt nisi vestibulum ac."
                       techImg="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png"

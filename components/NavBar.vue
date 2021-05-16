@@ -14,8 +14,8 @@
           </g>
         </svg>
         <div class="relative -m-5">
-          <span class="block font-semibold text-xl text-gray-600">Pfevrety</span>
-          <span class="block font-semibold text-gray-600">Développeur</span>
+          <span class="block font-semibold text-xl text-gray-600 dark:text-white">Pfevrety</span>
+          <span class="block font-semibold text-gray-600 dark:text-gray-100">Développeur</span>
         </div>
       </div>
       <div class="block sm:hidden">
@@ -30,15 +30,15 @@
       <div :class="open ? 'block text-left': 'hidden text-right'"
            class="w-full flex-grow sm:flex sm:items-center sm:w-auto">
         <div class="text-sm sm:flex-grow">
-          <a :class="open ? 'block': 'inline'" class="text-lg mr-5 text-gray-700 hover:text-gray-500 transition ease-in-out duration-300"
+          <a :class="open ? 'block': 'inline'" class="text-lg mr-5 dark:text-gray-400 text-gray-700 hover:text-gray-500 transition ease-in-out duration-300"
              href="#presentation">
             Présentation
           </a>
-          <a :class="open ? 'block': 'inline'" class="text-lg mr-5 text-gray-700 hover:text-gray-500 transition ease-in-out duration-300"
+          <a :class="open ? 'block': 'inline'" class="text-lg mr-5 dark:text-gray-400 text-gray-700 hover:text-gray-500 transition ease-in-out duration-300"
              href="#competence">
             Compétences
           </a>
-          <a :class="open ? 'block': 'inline'" class="text-lg mr-5 text-gray-700 hover:text-gray-500 transition ease-in-out duration-300"
+          <a :class="open ? 'block': 'inline'" class="text-lg mr-5 dark:text-gray-400 text-gray-700 hover:text-gray-500 transition ease-in-out duration-300"
              href="#project">
             Projets
           </a>
