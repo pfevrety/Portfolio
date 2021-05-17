@@ -1,11 +1,20 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'Portfolio',
+    title: 'eiio.dev',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: '' },
+      { property: 'og:title', content: 'Eliott Portfolio' },
+      { property: 'og:description', content: 'A French Developper' },
+      { property: 'og:image', content: 'https://github.com/pfevrety/Portfolio/blob/main/data/logo-big.PNG?raw=true' },
+      { property: 'og:url', content: 'https://eiio.dev/' },
+      { property: 'twitter:title', content: 'Eliott Portfolio' },
+      { property: 'twitter:description', content: 'A French Developper' },
+      { property: 'twitter:image', content: 'https://github.com/pfevrety/Portfolio/blob/main/data/logo-big.PNG?raw=true' },
+      { property: 'twitter:url', content: 'https://eiio.dev/' },
+
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
     link: [{ rel: 'preconnect', href: 'https://fonts.gstatic.com' }],
