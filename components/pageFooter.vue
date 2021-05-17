@@ -1,5 +1,5 @@
 <template>  
-  <footer class="bg-gray-200 dark:bg-gray-900 text-center shadow-2xl p-16 opacity-80" id="footer">
+  <footer class="bg-gray-200 dark:bg-gray-900 text-center shadow-2xl p-16 opacity-80" id="footerPage">
     <a href="mailto:efevret@gmail.com" class="text-xl text-green-500 underline font-semibold"
       >efevret@gmail.com</a
     >

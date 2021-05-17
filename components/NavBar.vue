@@ -42,7 +42,7 @@
              href="#project">
             Projets
           </a>
-          <button class="focus:outline-none transition duration-500 ease-in-out transform hover:-translate-1 hover:scale-105 bg-green-200 border-green-700 text-green-700 text-base border-2	 font-semibold px-6 py-2 rounded-lg"><a href="#footer">Me contacter</a></button>
+          <button class="focus:outline-none transition duration-500 ease-in-out transform hover:-translate-1 hover:scale-105 bg-green-200 border-green-700 text-green-700 text-base border-2	 font-semibold px-6 py-2 rounded-lg"><a href="#footerPage">Me contacter</a></button>
         </div>
       </div>
     </nav>
