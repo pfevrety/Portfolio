@@ -1,20 +1,29 @@
-# Portfolio
+# pfevrety's portfolio
+![](https://avatars0.githubusercontent.com/u/60936445?s=460&u=d01641c4e9197aaa4f4b8e07caf26863f77b35d6&v=4)
+===
 
-## Build Setup
-
+Configuration
+-----------
+You need to install dependencies
 ```bash
-# install dependencies
 $ yarn install
-
-# serve with hot reload at localhost:3000
+```
+You can run project using
+```bash
 $ yarn dev
-
-# build for production and launch server
+```
+You can run project for production using:
+```bash
 $ yarn build
 $ yarn start
-
-# generate static project
+```
+Generate static project
+```bash
 $ yarn generate
 ```
 
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+License
+-----------
+This projetc is under **Mit License**. You can reuse this project to create your portfolio if you want!
+
+
