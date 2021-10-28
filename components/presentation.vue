@@ -26,12 +26,6 @@
   </section>
 </template>
 
-<script>
-export default {
-  name: "presentation"
-};
-</script>
-
 <style>
 @media (min-width: 768px) {
   .w-special {
