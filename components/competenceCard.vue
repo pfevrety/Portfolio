@@ -5,10 +5,10 @@
       class="group h-32 w-48 flex-col m-2 justify-center items-center dark:bg-gray-900 shadow-lg hover:shadow-2xl bg-gray-50 flex rounded-xl transform duration-200 ease-in-out transition hover:-translate-y-2"
     >
       <img
-        :src="techImg"
+        :src="require(`../assets/img/${data.slug}.webp`)"
         class="filter grayscale group-hover:grayscale-0 w-auto h-10 transform duration-200 ease-in-out transition"
       />
-      <h4 class="text-lg mt-2 text-center font-semibold text-gray-600">{{ techName }}</h4>
+      <h4 class="text-lg mt-2 text-center font-semibold text-gray-600">{{ data.name }}</h4>
       <!-- <p class=" font-thin dark:text-gray-200">{{ techDescription }}</p> -->
     </article>
     <transition name="fade">
@@ -57,7 +57,7 @@
 <script>
 export default {
   name: "competenceCard",
-  props: ['techImg', 'techName', 'techDescription'],
+  props: ['data'],
   data() {
     return {
       clicked: false,
@@ -72,8 +72,8 @@ export default {
 </script>
 
 <style>
-
-.fade-enter-active, .fade-leave-active {
+.fade-enter-active,
+.fade-leave-active {
   transition: opacity 1s;
 }
 .fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
