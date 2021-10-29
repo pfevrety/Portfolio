@@ -6,7 +6,8 @@
     >
       <img
         :src="require(`../assets/img/${data.slug}.webp`)"
-        class="filter grayscale group-hover:grayscale-0 w-auto h-10 transform duration-200 ease-in-out transition"
+        :alt="`${data.slug}-logo ${data.slug} ${data.slug}.webp`"
+        class="filter grayscale group-hover:grayscale-0 w-auto h-10  transform duration-200 ease-in-out transition"
       />
       <h4 class="text-lg mt-2 text-center font-semibold text-gray-600">{{ data.name }}</h4>
       <!-- <p class=" font-thin dark:text-gray-200">{{ techDescription }}</p> -->
