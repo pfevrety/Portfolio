@@ -1,7 +1,7 @@
 <template>
   <XyzTransition appear-visible duration="auto">
     <article
-      xyz="delay-5 small fade stagger-1 ease-in"
+      xyz="delay-5 thin fade stagger-2 ease-in"
       class="group shadow-xl hover:shadow-2xl flex flex-col m-5 min-h-[14rem] p-4 dark:bg-gray-900 bg-white lg:w-1/4 w-full rounded-xl transform translate-1 duration-300 ease-in-out transition hover:scale-[101%]"
     >
       <div class="flex-auto items-start">
