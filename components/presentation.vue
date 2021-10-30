@@ -26,12 +26,6 @@ v-tilt      class="fade_animation w-56 relative lg:-left-24 shadow-2xl m-5"
   </section>
 </template>
 
-<script>
-export default {
-  name: "presentation"
-};
-</script>
-
 <style>
 @media (min-width: 768px) {
   .w-special {

@@ -1,5 +1,5 @@
 <template>
-  <main class="bg-yellow-50 font-ubuntu dark:bg-gray-800">
+  <main class="overflow-hidden bg-blue-50 font-ubuntu dark:bg-gray-800">
     <NavBar />
     <Nuxt />
     <pageFooter class="block h-full"/>

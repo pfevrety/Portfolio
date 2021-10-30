@@ -1,28 +1,15 @@
 <template>
-  <section class=" p-6" id="competence">
-    <h3 class="ml-6 text-3xl font-bold dark:text-white">Mes compétences</h3>
-    <p class="p-2 ml-4 text-2xl font-light dark:text-white">Lorem Ipsum dollor si amet</p>
-    <div class="flex flex-wrap justify-between lg:p-1">
-      <competenceCard techDescription="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus pharetra arcu dui, ut congue quam laoreet ac. Praesent convallis tincidunt ante, ut tincidunt nisi vestibulum ac."
-                      techImg="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png"
-                      techName="Javascript" />
-      <competenceCard techDescription="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus pharetra arcu dui, ut congue quam laoreet ac. Praesent convallis tincidunt ante, ut tincidunt nisi vestibulum ac."
-                      techImg="https://www.dotcom-monitor.com/blog/wp-content/uploads/sites/3/2020/05/Vue-logo-1.png"
-                      techName="VueJs" />
-      <competenceCard techDescription="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus pharetra arcu dui, ut congue quam laoreet ac. Praesent convallis tincidunt ante, ut tincidunt nisi vestibulum ac."
-                      techImg="https://grafikart.fr/uploads/icons/elasticsearch.svg"
-                      techName="ElasticSearch" />
-      <competenceCard techDescription="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus pharetra arcu dui, ut congue quam laoreet ac. Praesent convallis tincidunt ante, ut tincidunt nisi vestibulum ac."
-                      techImg="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/768px-Python-logo-notext.svg.png"
-                      techName="Python" />
-      <competenceCard techDescription="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus pharetra arcu dui, ut congue quam laoreet ac. Praesent convallis tincidunt ante, ut tincidunt nisi vestibulum ac."
-                      techImg="https://lh3.googleusercontent.com/proxy/9YbwTlcPrLb7cR9M4Wtcd3kEsLbUNmjRDeWdMqm_L2BtG2upVlohOZ21aLLUmI9ueaVHJKp67Opn61jETt6tV-qhu_4v0FjE8oZgZHXl05LJApISj1rHwcM6NDy4ebFfpc7p1GTe"
-                      techName="VueJs" />
-      <competenceCard techDescription="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus pharetra arcu dui, ut congue quam laoreet ac. Praesent convallis tincidunt ante, ut tincidunt nisi vestibulum ac."
-                      techImg="https://ih1.redbubble.net/image.1637717834.1604/pp,840x830-pad,1000x1000,f8f8f8.u1.jpg"
-                      techName="VueJs" />
-    </div>
-  </section>
+  <div>
+    <section v-for="(competence, i) in competences" class="p-6" :key="i">
+      <h3 class="ml-6 text-3xl font-bold dark:text-white">{{ competence.name }}</h3>
+      <p class="p-2 ml-4 text-2xl font-light dark:text-white">{{ competence.description }}</p>
+      <div
+        class="grid gap-8 xl:grid-cols-6 lg:grid-cols-5 md:grid-cols-3 sm:grid-cols-2 grid-cols-1"
+      >
+        <competenceCard v-for="(tech, i) in competence.techs" :key="i" :data="tech" />
+      </div>
+    </section>
+  </div>
 </template>
 
 <script>
@@ -32,7 +19,75 @@ export default {
   name: "competence",
   component: {
     competenceCard
-  }
+  },
+  data() {
+    return {
+      competences: [
+        {
+          name: "Techs",
+          description: "Mes compétences",
+          techs: [
+            {
+              name: "Html",
+              slug: 'html',
+              description: "Vue. is ...."
+            },
+            {
+              name: "CSS",
+              slug: 'css',
+              description: "Vue. is ...."
+            },
+            {
+              name: "Javascript",
+              slug: 'javascript',
+              description: "Vue. is ...."
+            },
+            {
+              name: "Tailwind",
+              slug: 'tailwind',
+              description: "Vue. is ...."
+            },
+            {
+              name: "Node.js",
+              slug: 'nodejs',
+              description: "Vue. is ...."
+            },
+            {
+              name: "Vue.js",
+              slug: 'vue',
+              description: "Vue. is ...."
+            },
+            {
+              name: "Discord.js",
+              slug: 'discordjs',
+              description: "Vue. is ...."
+            },
+            {
+              name: "Python",
+              slug: "python",
+              description: "Vue. is ...."
+            }
+          ]
+        },
+        {
+          name: "Mes outils",
+          description: "Mes compétences",
+          techs: [
+            {
+              name: "VS Code",
+              slug: 'vscode',
+              description: "Vue. is ...."
+            },
+            {
+              name: "Git",
+              slug: 'html',
+              description: "Vue. is ...."
+            },
+          ]
+        },
+      ]
+    }
+  },
 };
 </script>
 

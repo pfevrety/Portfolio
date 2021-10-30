@@ -11,9 +11,11 @@
     "lint": "yarn lint:js"
   },
   "dependencies": {
+    "@animxyz/vue": "^0.6.4",
     "@nuxtjs/pwa": "^3.3.5",
+    "core-js": "^3.9.1",
+    "nuxt-edge": "latest"
     "core-js": "^3.18.2",
-    "nuxt": "^2.10.1",
     "vue-tilt.js": "^1.1.1"
   },
   "devDependencies": {
