@@ -25,7 +25,7 @@ export default {
 
   loading: true,
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-    plugins: ["~/plugins/titl.ts", "~/plugins/animxyz.js"],
+    plugins: ["~/plugins/titl.ts", "~/plugins/animxyz.ts"],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
