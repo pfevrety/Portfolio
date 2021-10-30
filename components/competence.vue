@@ -4,7 +4,7 @@
       <h3 class="ml-6 text-3xl font-bold dark:text-white">{{ competence.name }}</h3>
       <p class="p-2 ml-4 text-2xl font-light dark:text-white">{{ competence.description }}</p>
       <div
-        class="grid gap-x-2 xl:grid-cols-7 lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 m-auto"
+        class="grid gap-8 xl:grid-cols-6 lg:grid-cols-5 md:grid-cols-3 sm:grid-cols-2 grid-cols-1"
       >
         <competenceCard v-for="(tech, i) in competence.techs" :key="i" :data="tech" />
       </div>
@@ -62,14 +62,24 @@ export default {
               slug: 'discordjs',
               description: "Vue. is ...."
             },
+            {
+              name: "Python",
+              slug: "python",
+              description: "Vue. is ...."
+            }
           ]
         },
         {
-          name: "Techs",
+          name: "Mes outils",
           description: "Mes compétences",
           techs: [
             {
-              name: "Vue.js",
+              name: "VS Code",
+              slug: 'vscode',
+              description: "Vue. is ...."
+            },
+            {
+              name: "Git",
               slug: 'html',
               description: "Vue. is ...."
             },
