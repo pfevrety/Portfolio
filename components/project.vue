@@ -1,18 +1,23 @@
 <template>
-  <section class="m-4 p-6" id="project">
-    <h3 class="ml-2 text-3xl font-bold dark:text-white">Projets</h3>
-    <p class="p-2 text-2xl font-light dark:text-white">
-      L'ensemble de mes projets sont disponibles sur mon
-      <a class="font-medium" href="https://www.github.com/pfevrety">profil github</a>
-    </p>
-    <div class="flex flex-col lg:flex-row lg:flex-wrap justify-between" id="competence" v-if="loaded">
-      <ProjectCard
-        v-for="(repo, i) in repos"
-        :key="i"
-        :project="repo"
-      />
-    </div>
-  </section>
+  <XyzTransition appear-visible duration="auto">
+    <section class="m-4 p-6" id="project" xyz="delay-5 small fade stagger-2 ease-out-back">
+      <h3 class="ml-2 text-3xl font-bold dark:text-white">Projets</h3>
+      <p class="p-2 text-2xl font-light dark:text-white">
+        L'ensemble de mes projets sont disponibles sur mon
+        <a
+          class="font-medium"
+          href="https://www.github.com/pfevrety"
+        >profil github</a>
+      </p>
+      <div
+        class="flex flex-col lg:flex-row lg:flex-wrap justify-between"
+        id="competence"
+        v-if="loaded"
+      >
+        <ProjectCard v-for="(repo, i) in repos" :key="i" :project="repo" />
+      </div>
+    </section>
+  </XyzTransition>
 </template>
 
 <script>
