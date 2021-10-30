@@ -14,7 +14,7 @@
     "@animxyz/vue": "^0.6.4",
     "@nuxtjs/pwa": "^3.3.5",
     "core-js": "^3.9.1",
-    "nuxt-edge": "latest"
+    "nuxt-edge": "latest",
     "core-js": "^3.18.2",
     "vue-tilt.js": "^1.1.1"
   },
