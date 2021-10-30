@@ -20,25 +20,25 @@
       </div>
       <div class="block sm:hidden">
         <button
-          class="flex items-center px-3 py-2 border rounded text-teal-lighter border-teal-light hover:text-white hover:border-white"
+          class="flex items-center px-3 outline py-2 border rounded hover:text-white hover:border-white"
           @click="open = !open">
-          <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title>
+          <svg class=" h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title>
             <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
           </svg>
         </button>
       </div>
       <div :class="open ? 'block text-left': 'hidden text-right'"
-           class="w-full flex-grow sm:flex sm:items-center sm:w-auto">
+           class="w-full ml-8 flex-grow sm:flex sm:items-center sm:w-auto">
         <div class="text-sm sm:flex-grow">
-          <a :class="open ? 'block': 'inline'" class="text-lg mr-5 dark:text-gray-400 text-gray-700 hover:text-gray-500 transition ease-in-out duration-300"
+          <a :class="open ? 'block': 'inline'" class="text-lg mr-5 dark:text-gray-400 text-gray-700 hover:text-gray-300 transition ease-in-out duration-300"
              href="#presentation">
             Présentation
           </a>
-          <a :class="open ? 'block': 'inline'" class="text-lg mr-5 dark:text-gray-400 text-gray-700 hover:text-gray-500 transition ease-in-out duration-300"
+          <a :class="open ? 'block': 'inline'" class="text-lg mr-5 dark:text-gray-400 text-gray-700 hover:text-gray-300 transition ease-in-out duration-300"
              href="#competence">
             Compétences
           </a>
-          <a :class="open ? 'block': 'inline'" class="text-lg mr-5 dark:text-gray-400 text-gray-700 hover:text-gray-500 transition ease-in-out duration-300"
+          <a :class="open ? 'block': 'inline'" class="text-lg mr-5 dark:text-gray-400 text-gray-700 hover:text-gray-300 transition ease-in-out duration-300"
              href="#project">
             Projets
           </a>

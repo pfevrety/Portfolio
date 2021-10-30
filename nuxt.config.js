@@ -21,10 +21,11 @@ export default {
     link: [{ rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap' }]
   },
   // Global CSS: https://go.nuxtjs.dev/config-css
-  plugins: ["~/plugins/animxyz.js"],
   css: ["@animxyz/core"],
 
-  loading: false,
+  loading: true,
+  // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
+    plugins: ["~/plugins/titl.ts", "~/plugins/animxyz.js"],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,

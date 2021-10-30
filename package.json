@@ -15,20 +15,22 @@
     "@nuxtjs/pwa": "^3.3.5",
     "core-js": "^3.9.1",
     "nuxt-edge": "latest"
+    "core-js": "^3.18.2",
+    "vue-tilt.js": "^1.1.1"
   },
   "devDependencies": {
-    "@nuxt/types": "^2.15.3",
+    "@nuxt/types": "^2.15.8",
     "@nuxt/typescript-build": "^2.1.0",
-    "@nuxtjs/eslint-config-typescript": "^6.0.0",
+    "@nuxtjs/eslint-config-typescript": "^6.0.1",
     "@nuxtjs/eslint-module": "^3.0.2",
-    "@nuxtjs/tailwindcss": "^4.1.2",
-    "autoprefixer": "^9",
+    "@nuxtjs/tailwindcss": "^4.2.1",
+    "autoprefixer": "^10",
     "babel-eslint": "^10.1.0",
-    "eslint-config-prettier": "^8.1.0",
+    "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-nuxt": "^2.0.0",
-    "eslint-plugin-prettier": "^3.3.1",
-    "eslint-plugin-vue": "^7.7.0",
-    "postcss": "^7",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-vue": "^7.19.1",
+    "postcss": "^8",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat"
   }
 }

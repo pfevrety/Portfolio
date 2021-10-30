@@ -20,7 +20,7 @@
       </div>
     </div>
     <img
-      class="w-56 relative lg:-left-24 shadow-2xl m-5"
+v-tilt      class="fade_animation w-56 relative lg:-left-24 shadow-2xl m-5"
       src="https://avatars0.githubusercontent.com/u/60936445?s=460&u=d01641c4e9197aaa4f4b8e07caf26863f77b35d6&v=4"
     />
   </section>
@@ -32,4 +32,21 @@
     width: 88vw;
   }
 }
+
+.fade_animation {
+  animation: fade 0.8s ease-in-out;
+}
+
+@keyframes fade {
+  from {
+    opacity: 20%;
+    transform: translateX(30px);
+  }
+
+  to {
+        transform: translateX(0);
+
+  }
+}
+
 </style>
