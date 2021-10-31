@@ -5,8 +5,8 @@
       @click="generateModal()"
       class="group h-36 w-full flex-col justify-center items-center dark:bg-gray-900 shadow-lg hover:shadow-2xl bg-white flex rounded-xl transform duration-200 ease-in-out transition hover:-translate-y-2"
     >
-      <img
-        :src="require(`../assets/img/${data.slug}.webp`)"
+      <nuxt-img
+        :src="`/img/${data.slug}.webp`"
         :alt="`${data.slug}-logo ${data.slug} ${data.slug}.webp`"
         class="rounded filter grayscale group-hover:grayscale-0 w-auto h-10 transform duration-200 ease-in-out transition"
       />
