@@ -2,7 +2,7 @@
   <XyzTransition appear-visible duration="auto">
     <article
       xyz="delay-5 thin fade stagger-2 ease-in"
-      class="group shadow-xl hover:shadow-2xl flex flex-col m-5 min-h-[14rem] p-4 dark:bg-gray-900 bg-white lg:w-1/4 w-full rounded-xl transform translate-1 duration-300 ease-in-out transition hover:scale-[101%]"
+      class="group shadow-xl hover:shadow-2xl flex flex-col min-h-[14rem] p-4 dark:bg-gray-900 bg-white lg:w-1/4 w-full rounded-xl transform translate-1 duration-300 ease-in-out transition hover:scale-[101%]"
     >
       <div class="flex-auto items-start">
         <header class="justify-between flex flex-wrap">
