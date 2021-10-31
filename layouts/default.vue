@@ -1,19 +1,9 @@
 <template>
   <main class="overflow-hidden bg-blue-50 font-ubuntu dark:bg-gray-800">
-    <NavBar />
-    <Nuxt />
-    <pageFooter class="block h-full"/>
+    <div class="px-16 py-6">
+      <NavBar />
+      <Nuxt />
+    </div>
+    <Footer />
   </main>
 </template>
-
-<script lang="ts">
-import NavBar from '~/components/NavBar.vue'
-import pageFooter from '~/components/pageFooter.vue'
-
-export default {
-  components: {
-    NavBar,
-    pageFooter,
-  },
-}
-</script>
