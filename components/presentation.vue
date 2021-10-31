@@ -26,10 +26,15 @@
         </p>
       </div>
     </div>
-    <img
+    <nuxt-img
+      width="224"
+      height="224"
+      format="webp"
+      quality="70"
+      fit="contain"
       v-tilt
       class="fade_animation w-56 h-56 relative lg:-left-24 shadow-2xl m-5"
-      src="https://avatars0.githubusercontent.com/u/60936445?s=460&u=d01641c4e9197aaa4f4b8e07caf26863f77b35d6&v=4"
+      src="/pfevrety.png"
     />
   </section>
 </template>
