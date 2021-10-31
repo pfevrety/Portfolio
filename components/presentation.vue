@@ -1,8 +1,15 @@
 <template>
-  <section class="m-4 flex items-center justify-between flex-wrap p-6 md:flex-nowrap" id="presentation">
-    <div class="pl-4 w-8/12">
+  <section
+    class="flex items-center justify-between flex-wrap md:flex-nowrap"
+    id="presentation"
+  >
+    <div class="w-8/12">
       <h2 class="text-5xl font-bold dark:text-white">Qui je suis</h2>
-      <p class="text-2xl font-light bg-green-500 w-special p-2 mt-5 mb-3 dark:text-white">Developper</p>
+      <p
+        class="text-2xl font-light bg-green-500 w-special mt-5 mb-3 dark:text-white"
+      >
+        Developper
+      </p>
 
       <div class="font-extralight dark:text-gray-400">
         <p>
@@ -20,7 +27,8 @@
       </div>
     </div>
     <img
-v-tilt      class="fade_animation w-56 relative lg:-left-24 shadow-2xl m-5"
+      v-tilt
+      class="fade_animation w-56 h-56 relative lg:-left-24 shadow-2xl m-5"
       src="https://avatars0.githubusercontent.com/u/60936445?s=460&u=d01641c4e9197aaa4f4b8e07caf26863f77b35d6&v=4"
     />
   </section>
@@ -29,7 +37,7 @@ v-tilt      class="fade_animation w-56 relative lg:-left-24 shadow-2xl m-5"
 <style>
 @media (min-width: 768px) {
   .w-special {
-    width: 88vw;
+    width: 91vw;
   }
 }
 
@@ -44,9 +52,7 @@ v-tilt      class="fade_animation w-56 relative lg:-left-24 shadow-2xl m-5"
   }
 
   to {
-        transform: translateX(0);
-
+    transform: translateX(0);
   }
 }
-
 </style>
