@@ -8,7 +8,7 @@
       >
     </p>
     <div
-      class="flex flex-col lg:flex-row space-y-2 lg:flex-wrap justify-between"
+      class="flex flex-col lg:flex-row lg:flex-wrap justify-between"
       id="competence"
       v-if="loaded"
     >
