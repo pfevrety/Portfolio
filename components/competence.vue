@@ -1,8 +1,8 @@
 <template>
   <div>
-    <section v-for="(competence, i) in competences" class="p-6" :key="i">
-      <h3 class="ml-6 text-3xl font-bold dark:text-white">{{ competence.name }}</h3>
-      <p class="p-2 ml-4 text-2xl font-light dark:text-white">{{ competence.description }}</p>
+    <section v-for="(competence, i) in competences" :key="i">
+      <h3 class="text-3xl font-bold dark:text-white">{{ competence.name }}</h3>
+      <p class="text-2xl font-light dark:text-white">{{ competence.description }}</p>
       <div
         class="grid gap-8 xl:grid-cols-6 lg:grid-cols-5 md:grid-cols-3 sm:grid-cols-2 grid-cols-1"
       >
