@@ -1,7 +1,7 @@
 <template>
   <header class="antialiased">
-    <nav class="flex items-center justify-between flex-wrap p-6">
-      <div class="flex items-center flex-no-shrink text-white mr-6">
+    <nav class="flex items-center justify-between flex-wrap">
+      <div class="flex items-center flex-no-shrink text-white">
         <svg height="100" version="1.1" viewBox="0, 0, 400,305.15806988352745"
              width="100" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
           <g>
