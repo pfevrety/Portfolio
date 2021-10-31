@@ -8,7 +8,7 @@
       <nuxt-img
         :src="`/img/${data.slug}.webp`"
         width="40"
-        heigth="40"
+        height="40"
         quality="40"
         fit="contain"
         :alt="`${data.slug}-logo ${data.slug} ${data.slug}.webp`"
