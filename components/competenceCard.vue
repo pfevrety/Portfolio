@@ -7,8 +7,12 @@
     >
       <nuxt-img
         :src="`/img/${data.slug}.webp`"
+        width="40"
+        heigth="40"
+        quality="40"
+        fit="contain"
         :alt="`${data.slug}-logo ${data.slug} ${data.slug}.webp`"
-        class="rounded filter grayscale group-hover:grayscale-0 w-auto h-10 transform duration-200 ease-in-out transition"
+        class="rounded filter grayscale group-hover:grayscale-0 h-10 w-auto transform duration-200 ease-in-out transition"
       />
       <h4
         class="group-hover:text-gray-400 transition duration-150 text-lg mt-2 text-center font-semibold text-gray-600"
