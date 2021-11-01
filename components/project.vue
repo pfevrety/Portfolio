@@ -37,7 +37,7 @@ export default {
       .then(r => r.json())
       .then(r => (this.repos = r))
       .then((this.loaded = true))
-      .catch(error => console.log(error))
+      .catch(error => console.error(error))
   }
 }
 </script>
