@@ -52,7 +52,6 @@ export default {
     // https://go.nuxtjs.dev/pwa
     '@nuxtjs/pwa',
     '@nuxt/image',
-    '@nuxtjs/sitemap'
   ],
   image: {},
 
