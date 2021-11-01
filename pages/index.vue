@@ -6,19 +6,27 @@
   </div>
 </template>
 
-<script lang="ts">
-import presentation from '~/components/presentation.vue'
-import competence from "~/components/competence.vue";
-import project from "~/components/project.vue"
+<script>
+  export default {
+    head() {
+      return {
+        title: "Pfevrety",
+        meta: [
+          {
+            hid: 'description',
+            name: 'description',
+            content: 'Page principale du portfolio de pfevrety'
+          }
+        ],
+                link: [
+          {
+            rel: 'stylesheet',
+            href: 'https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap'
+          }
+        ]
 
-export default {
-  components: {
-    competence,
-    presentation,
-    project,
-  },
-}
+      }
+    }
+  }
 </script>
 
-<style>
-</style>
