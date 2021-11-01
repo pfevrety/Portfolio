@@ -13,6 +13,7 @@
   "dependencies": {
     "@animxyz/vue": "^0.6.4",
     "@nuxtjs/pwa": "^3.3.5",
+    "@nuxtjs/sitemap": "^2.4.0",
     "core-js": "^3.18.2",
     "nuxt-edge": "latest",
     "vue-tilt.js": "^1.1.1"
