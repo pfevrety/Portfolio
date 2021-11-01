@@ -35,6 +35,7 @@
       v-tilt
       class="fade_animation w-56 h-56 relative lg:-left-24 shadow-2xl m-5"
       src="/pfevrety.png"
+      alt="pfevrety logo N design"
     />
   </section>
 </template>
