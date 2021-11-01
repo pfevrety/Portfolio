@@ -54,6 +54,7 @@ export default {
     },
     display: 'swap',
     inject: true,
+    download: true
   },
 
   // Modules: https://go.nuxtjs.dev/config-modules
