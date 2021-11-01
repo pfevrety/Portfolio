@@ -10,7 +10,6 @@
         width="40"
         height="40"
         quality="40"
-        format="svg"
         fit="outside"
         :alt="`${data.slug}-logo ${data.slug} ${data.slug}.webp`"
         class="rounded filter grayscale group-hover:grayscale-0 h-10 w-auto transform duration-200 ease-in-out transition"
