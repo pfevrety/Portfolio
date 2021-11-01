@@ -45,22 +45,22 @@ export default {
     '@nuxt/typescript-build',
     '@nuxtjs/tailwindcss',
     '@nuxt/image',
-    '@nuxtjs/google-fonts',
+    '@nuxtjs/google-fonts'
   ],
 
   googleFonts: {
     families: {
       Ubuntu: true,
-      display: 'swap',
-      download: true
-    }
+    },
+    display: 'swap',
+    inject: true,
   },
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
     // https://go.nuxtjs.dev/pwa
     '@nuxtjs/pwa',
-    '@nuxt/image',
+    '@nuxt/image'
   ],
   image: {},
 
