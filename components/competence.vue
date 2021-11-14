@@ -1,10 +1,10 @@
 <template>
-  <div>
+  <div class="mt-10">
     <section v-for="(competence, i) in competences" :key="i">
-      <h3 class="text-3xl font-bold dark:text-white">{{ competence.name }}</h3>
+      <h3 class="mt-8 text-3xl font-bold dark:text-white">{{ competence.name }}</h3>
       <p class="text-2xl font-light dark:text-white">{{ competence.description }}</p>
       <div
-        class="grid gap-8 xl:grid-cols-6 lg:grid-cols-5 md:grid-cols-3 sm:grid-cols-2 grid-cols-1"
+        class="pt-4 grid gap-8 xl:grid-cols-6 lg:grid-cols-5 md:grid-cols-3 sm:grid-cols-2 grid-cols-1"
       >
         <competenceCard v-for="(tech, i) in competence.techs" :key="i" :data="tech" />
       </div>
